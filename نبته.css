@@ -1,0 +1,63 @@
+.logo{
+    height: 100px;
+    width: 25%;
+    background-color: #52b788;
+    font-size: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .size{
+    font-size: 20px;
+    font-weight: 40px;
+    margin-left: 320px;
+    }
+    
+    .img{
+    margin-left: 300px;
+    }
+    
+    .text{
+    margin-left: 99px;
+    font-size: 30px;
+    }
+    
+    em:hover {
+        background-color: #95d5b2;
+    
+    
+      
+        /* هذا مال البونص اللي لما نحط الماوس عليه يكبر */
+        /* css transition */
+        div{
+            width: 200px;
+            height: 200px;
+            background: #2d6a4f;
+            transition: width 5s;
+          }
+          
+          div:hover {
+            width: 300px;
+    
+    /* navbar اللي مكتوب هوم وكونتاكت */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+      }
+      
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color on hover */
+      li a:hover {
+        background-color: #555;
+        color: white;
+      }
